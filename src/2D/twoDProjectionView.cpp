@@ -40,7 +40,7 @@ PointVector3D twoDProjectionView::pointReconstruction()
 			topPointTemp = *(topview->PointSet.at(i));
 			if (abs(frontPointTemp.a - topPointTemp.a) < 0.01)
 			{
-				retPoint = new threeDPoint(topPointTemp.a, frontPointTemp.a, frontPointTemp.b);
+				retPoint = new threeDPoint(frontPointTemp.a, frontPointTemp.b, topPointTemp.b);
 				retVal->push_back(retPoint);
 			}
 			else
