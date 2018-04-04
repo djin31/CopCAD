@@ -5,7 +5,7 @@ The tool also allows user to rotate the object with easy to use sliders, and vie
 
 The software expects the projection drawing or the three dimensional model to be input in the form of its vertex set and edge set.
 
-##Requirements
+## Requirements
 To run the software you require:
 
 Qt package: Version 5.X.XX
@@ -19,7 +19,7 @@ GCC Version 7+ (tested with 7.2.0)
 A reference to update your gcc https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91
 ```
 
-##Build steps
+## Build steps
 ```
 $ qmake EnngDrawing.pro
 $ make
